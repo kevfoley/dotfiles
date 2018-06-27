@@ -131,3 +131,4 @@ alias zrc="vim ~/.zshrc; source ~/.zshrc"
 alias vrc="vim ~/.vimrc"
 alias vplug='vim ~/.vim/plugins.vim'
 alias la='ls -Ah'
+bindkey -v
