@@ -1,10 +1,14 @@
 ### Install fancy terminal setup
 
 #Install OMZ
-brew install zsh
-chsh -s /usr/local/bin/zsh
+
+# Only for computers without zsh. Off by default
+# brew install zsh
+# chsh -s /usr/local/bin/zsh
+
 curl -L http://install.ohmyz.sh | sh
-git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/zsh-syntax-highlighting
+git clone git@github.com:zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/zsh-syntax-highlighting
+git clone git@github.com:zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 brew install z
 
 #Install Powerline9k and font for zsh
